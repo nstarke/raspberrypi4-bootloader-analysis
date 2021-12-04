@@ -37,4 +37,6 @@ if [ ! -f "$FILENAME.map.txt" ]; then
 		"$FILENAME.strings.txt" \
 		"$FILENAME.disassembly.txt" \
 		"$FILENAME.map.txt"
+	
+	sh map-registers.sh "$FILENAME.map.txt"
 fi
