@@ -1,0 +1,119 @@
+129c ramdisk
+1a0a RPi4 
+273c EFI PART
+2748 GPT: No bootable partitions
+29f6 BUFF
+2a36 BUFF
+2aa6 BUFF
+2fc8 none
+2fd0 pi0w
+2fd8 pi3+
+2fe0 pi400
+2fe8 board-type
+3054 gpio%d %d=%d
+3108 gpio
+361c Update failed
+363c Verify VL805 EEPROM
+3668 VL805 EEPROM is up to date
+38b0 Erasing EEPROM
+38c0 Writing EEPROM
+38d0 Verify BOOT EEPROM
+38e4 BOOT-EEPROM: UPDATED
+38fc Bootloader EEPROM is up to date
+3fb8 '%s' already exists
+4ea4 Verifying
+4ed4 RSA signature not verified
+5078 ramdisk
+5130 BMD "%s" not found
+52ec Read %s failed
+6abc sdcard
+a0a8  RECOVERY
+a0b4 RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x 0x%08x
+a7dc RSA verify
+a9c4 TRYBOOT
+b2b4 POOL
+ba70 program_rpiboot_gpio not set
+bb2c Failed to set RPIBOOT OTP gpio%d %x -> %x
+bba0 RECOVERY
+bcbc Recovery failed
+bea4 Erased SPI EEPROM
+beb8 Failed to erase SPI EEPROM
+c2e0 No EEPROM files
+c4a8 Update failed
+c4b8 program_pubkey OR program_rpiboot_gpio require rpiboot mode
+c820 sdcard
+cc78 SD error: disable high speed
+e864 RESET
+ebf4 SPI error: %x %u %u %u %u %u
+edc4 bootcode.bin
+f010 %s mismatch
+f398 SPI WEL timeout
+fefc USBDEV%d
+107dc eeprom_write_protect
+107f1 erase_eeprom
+1081b program_rpiboot_gpio
+10830 program_jtag_lock
+10842 uart_2ndstage
+10850 recovery.bin
+1085d pieeprom.bin
+1086a pieeprom.upd
+10877 pieeprom.sig
+10884 vl805.bin
+1088e vl805.sig
+108a4 DHCP_OPTION97
+108b2 XHCI_DEBUG
+108bd NETCONSOLE
+108c8 ENABLE_SELF_UPDATE
+108db USB_MSD_PWR_OFF_TIME
+108f0 HDMI_DELAY
+108fb SD_BOOT_MAX_RETRIES
+10919 WAKE_ON_GPIO
+10926 POWER_OFF_ON_HALT
+10938 NET_BOOT_MAX_RETRIES
+1094d USB_DEV_BOOT_MAX_RETRIES
+10966 USB_DEV_FILE_TIMEOUT
+1097b USB_MSD_STARTUP_DELAY
+10991 USB_MSD_DISCOVER_TIMEOUT
+109aa USB_MSD_LUN_TIMEOUT
+109be USB_MSD_EXCLUDE_VID_PID
+109d6 DHCP_TIMEOUT
+109e3 DHCP_REQ_TIMEOUT
+109f4 TFTP_FILE_TIMEOUT
+10a13 BOOT_ORDER
+10a1e MAX_RESTARTS
+10a2b TFTP_PREFIX
+10a37 TFTP_PREFIX_STR
+10a47 MAC_ADDRESS
+10a6a FREEZE_VERSION
+10a79 SIGNED_BOOT
+10a9d bootconf.sig
+10bc4 pieeprom.upd
+10bd1 pieeprom.bin
+10bde pieeprom.sig
+10beb vl805.bin
+10bf5 vl805.sig
+10bff vl805hub.bin
+10c0c vl805mcu.bin
+10c19 logo.bin
+10c22 qrcode.bin
+10c2d font.bin
+10c36 pubkey.bin
+10c4a boot.sig
+10c5f tryboot.sig
+10c6b memsys00.bin
+10c78 memsys01.bin
+10c85 memsys02.bin
+10c92 memsys03.bin
+10c9f memsys04.bin
+10cac memsys05.bin
+10cb9 memsys06.bin
+10cc6 memsys07.bin
+10cd3 memsys08.bin
+113b8 TFTP_IP
+113c7 GATEWAY
+113d8 mcb.bin
+15000 fail
+15005 pass
+154c4 BSTEP
+15505 release
+15650 BUSBP

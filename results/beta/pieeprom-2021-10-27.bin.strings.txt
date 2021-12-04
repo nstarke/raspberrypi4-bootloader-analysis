@@ -1,0 +1,212 @@
+922 RPi4"
+d12 BUFF
+d82 BUFF
+104c none
+1054 pi0w
+105c pi3+
+1064 pi400
+106c board-type
+10d8 gpio%d %d=%d
+118c gpio
+4c6c MCB %d %d %d not found
+4e1c Samsung
+4e24 Unknown
+5914 Invalid GPIO command %s
+592c gpio_cmd: '%s' pins: %d-%d drive: %d fsel: %d term: %d
+6100 Memsys failed
+61c4  BOOTLOADER
+61d0 RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x 0x%08x
+692c RSA verify
+6b40 TRYBOOT
+73d6 POOL
+8058 RESET
+81a4 bootmain
+84c4 SPI error: %x %u %u %u %u %u
+8694 bootcode.bin
+88e0 %s mismatch
+8bc0 SPI WEL timeout
+90a4 DHCP_OPTION97
+90b2 XHCI_DEBUG
+90bd NETCONSOLE
+90c8 ENABLE_SELF_UPDATE
+90db USB_MSD_PWR_OFF_TIME
+90f0 HDMI_DELAY
+90fb SD_BOOT_MAX_RETRIES
+9119 WAKE_ON_GPIO
+9126 POWER_OFF_ON_HALT
+9138 NET_BOOT_MAX_RETRIES
+914d USB_DEV_BOOT_MAX_RETRIES
+9166 USB_DEV_FILE_TIMEOUT
+917b USB_MSD_STARTUP_DELAY
+9191 USB_MSD_DISCOVER_TIMEOUT
+91aa USB_MSD_LUN_TIMEOUT
+91be USB_MSD_EXCLUDE_VID_PID
+91d6 DHCP_TIMEOUT
+91e3 DHCP_REQ_TIMEOUT
+91f4 TFTP_FILE_TIMEOUT
+9213 BOOT_ORDER
+921e MAX_RESTARTS
+922b TFTP_PREFIX
+9237 TFTP_PREFIX_STR
+9247 MAC_ADDRESS
+926a FREEZE_VERSION
+9279 SIGNED_BOOT
+929d bootconf.sig
+93c4 pieeprom.upd
+93d1 pieeprom.bin
+93de pieeprom.sig
+93eb vl805.bin
+93f5 vl805.sig
+93ff vl805hub.bin
+940c vl805mcu.bin
+9419 logo.bin
+9422 qrcode.bin
+942d font.bin
+9436 pubkey.bin
+944a boot.sig
+945f tryboot.sig
+946b memsys00.bin
+9478 memsys01.bin
+9485 memsys02.bin
+9492 memsys03.bin
+949f memsys04.bin
+94ac memsys05.bin
+94b9 memsys06.bin
+94c6 memsys07.bin
+94d3 memsys08.bin
+9c2c TFTP_IP
+9c3b GATEWAY
+9c4c mcb.bin
+b008 fail
+b00d pass
+b430 BSTEP
+b471 release
+b5bc BUSBP
+bb40 bootmain
+c6f2 z actual
+c716 delay
+d974 TWORK
+d97d IBOOT
+d99c BCM-
+e0b1 FAT part
+e4da  No boot
+e8fc TLOAD
+ebe0 -CARD
+f03d  failed
+f143 Error
+f460 USB MSD
+f471 ut after
+f5c2 ramdisk
+fb56 tom firm
+fc33 `TOTAL
+fc50 soft
+fcb0 ypi.c
+10000 are not  found
+10b5d pi0U
+10b73 none
+1155e loader
+11570 rPy Pi/
+11d08 ate fail
+11d2d  E`EPROM
+11f98 Writ
+11fa3 fy BOOT
+11fd6 o date
+12b69 ter numb
+13565 mdisk
+13625 "%s" not@ found
+13cef v9pi
+13d51 LINK
+13d56  STATUS:@ speed
+144c4 NET STOP
+15f56 @sdcard
+185ce sBcM
+19e42 tftp:
+1a3ae i target
+1a751 INFORM
+1a75a REQUEST
+1a845 tftp
+1ac52 y Pi Boo
+1b9f8  @CANCEL
+1c299 BOOT
+1c2a4  TFTP
+1c34b ready
+1c495 opping n@etwork
+1d6a7 id GPIO @comman
+1d6bc gpio_c md: '
+1d6d8 @ drive
+1e1e5 uSD volt
+1e512 Missing
+1e77e FATAL
+1ea57 RPi:%<s 
+1ea6c : 0x%08@x part
+203e5 POOL
+22fab RESET
+23109 EEPROM
+23391 SPI erro
+23b57 SPI WEL
+24171 TFTP_GET)
+24e9a axPower
+24ecf faces
+25047 De0vice
+2507e ialNumb
+25107 END POINT
+25176 b`rPort
+25203 INT@ERFACE
+25800 INQUIRY
+25845  time
+260d6 USB dela0y %u
+260f3 ailed
+2816c  skip
+2817b ping V
+28616  ports
+289d4 %u slot
+29576 eset USB
+29b9c STOP
+29ba3 USBB	
+2a194 _flag
+2a205 ramdisk
+2a29a DHCP_OPT
+2a2ae I_DEBUG
+2a2da USB_M
+2a428 auto
+2a4af piee
+2ab92 TFTP_
+2abb5 mcb.bin
+2abe8 skip
+2abef half
+2ac31  tsize
+2adbc BSTEP
+2ae50 USBP
+2b115 are Link
+2c008 memsys00.bin
+2f818 memsys01.bin
+32713 GDAOLOTS
+327ae  doMe
+327c7 X4BCM
+32ac8 memsys02.bin
+35736  doMe
+3574f X4BCM
+35970 memsys03.bin
+38415  marpimiTg
+384f6 PiFwo
+3870e 5kmemsys04.bin
+3b8cd  dhoMe
+3b8e6 X4 BCM
+3bc86 6jmemsys05.bin
+3f300 memsys06.bin
+423f1 doMe
+42408 X@4BCM
+425e8 memsys07.bin
+458e1  doMe
+458fa X4BCM
+45ade 1Dmemsys08.bin
+48c2f Mmcb.bin
+49c87 tvl805hub.bin
+4b808 vl805mcu.bin
+5a408 logo.bin
+5c1ef Gfont.bin
+5e10c ON-XFILE
+5e13f Bqrcode.bin
+5f008 pubkey.bin
+60008 bootconf.sig
+6102a WAKE_ON_GPIO=1

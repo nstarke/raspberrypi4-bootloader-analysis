@@ -1,0 +1,149 @@
+1dec BOOTLOADER
+1f48 NETWORK
+1f50 USB-DEV
+1f58 USB-MSD
+1f60 %s boot failed
+20a4 Failed partition %d after %d retries
+2308 Missing/empty '%s' continuing
+2390 NETBOOT init failed
+2558 SD card not detected
+2958 .text.bootloader_state
+2a14    https://www.raspberrypi.org/downloads/
+2d0c Firmware not found
+2d20 EEPROMs updated. Rebooting
+2f30 BUFF
+2f70 BUFF
+2fb2 BUFF
+2fd0 BUFF
+3448 none
+3450 pi0w
+3458 pi3+
+34c0 gpio%d %d=%d
+3570 gpio
+3af4 Raspberry Pi 4 - %uGB
+3b2d   tftp: %i
+4084 %d bytes differ
+423c Update failed
+425c Verify VL805 EEPROM
+4270 VL805 EEPROM is up to date
+43f0 Writing EEPROM
+4400 Erasing EEPROM
+4410 Verify BOOT EEPROM
+4424 Bootloader EEPROM is up to date
+4ac4 '%s' already exists
+59ac Read %s failed
+59bc %s not found
+5dd0 LINK STATUS: speed: %d %s duplex
+7a62 RPi4#
+7bfc sdcard
+82a0 FAT volume not supported
+8e40 Samsung
+8e48 Unknown
+9480 OFFER
+9488 INFORM
+9490 REQUEST
+9498 DECLINE
+94a0 RELEASE
+94a8 DISCOVER
+94b4 LEASE_QUERY
+98d4 PXEClient
+98f8 DHCP src: %e %i
+9908 Raspberry Pi Boot
+9930 DHCP recv %s (%d) expect %s
+9bd8 NETBOOT CANCEL
+a164 DHCP complete: %i %e subnet %i gateway %i TFTP %i %e
+a2a8 client: %i tftp: %i subnet: %i gateway: %i broadcast: %i
+a47c NET_BOOT: %e wait for link TFTP: %i
+ac90 Invalid GPIO command %s
+aca8 gpio_cmd: '%s' pins: %d-%d drive: %d fsel: %d term: %d
+ba8c  BOOTLOADER
+ba98 RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x
+bf54 tsize
+bf5c blksize
+ce54 sdcard
+d2c8 SD error: disable high speed
+f02c RESET
+f3f8 bootcode.bin
+f65c %s corrupted
+fa98 Early terminate
+faf0 TFTP: disconnect: timeouts %d
+fbb0 TFTP_GET: %e %i %s
+fc50 TFTP %d: %s
+fcc8 TFTP: complete %u
+fd14 TFTP%d
+10b50 USBDEV%d
+11144 boot_partition
+11153 bootcode_delay
+111a3 start_debug
+111af uart_2ndstage
+111bd fixup_file
+111c8 start_file
+111de disable_splash
+111ed bootloader_update
+111ff mfg_test
+11316 pieeprom.upd
+11323 pieeprom.bin
+11330 pieeprom.sig
+1133d vl805.bin
+11347 vl805.sig
+11351 vl805hub.bin
+1135e vl805mcu.bin
+1136b logo.bin
+11374 qrcode.bin
+1137f font.bin
+11388 memsys00.bin
+11395 memsys01.bin
+113a2 memsys02.bin
+113af memsys03.bin
+113bc memsys04.bin
+113c9 memsys05.bin
+113d6 memsys06.bin
+113e3 memsys07.bin
+11478 DHCP_OPTION97
+11490 WAKE_ON_GPIO
+1149d POWER_OFF_ON_HALT
+114af SKIP_FW_CHECK
+114bd NET_BOOT_MAX_RETRIES
+114d2 SD_BOOT_MAX_RETRIES
+114e6 USB_DEV_BOOT_MAX_RETRIES
+114ff USB_DEV_FILE_TIMEOUT
+11514 DHCP_TIMEOUT
+11521 DHCP_REQ_TIMEOUT
+11532 TFTP_FILE_TIMEOUT
+11551 NET_CONSOLE
+1155d BOOT_ORDER
+11568 TFTP_PREFIX
+11574 TFTP_PREFIX_STR
+11584 MAC_ADDRESS
+115a7 ENABLE_SELF_UPDATE
+11b40 mcb.bin
+11b48 TFTP_IP
+11b57 GATEWAY
+15008 half
+1500d full
+1501a tsize
+15020 blksize
+1502d down
+153d1 release
+20006 6Fmemsys00.bin
+23658 memsys01.bin
+265f8 memsys02.bin
+29d06 7imemsys03.bin
+2d10a iFwore
+2d480 memsys04.bin
+30b60 memsys05.bin
+33ffe 4<memsys06.bin
+37448 memsys07.bin
+3a7f7 ;mcb.bin
+3b43f tvl805hub.bin
+3cfbf Dvl805mcu.bin
+4bb10 logo.bin
+4d8f7 Gfont.bin
+4f814 ON-XFILE
+4f848 qrcode.bin
+5002a WAKE_ON_GPIO=1
+5004d DHCP_TIMEOUT=45000
+50060 DHCP_REQ_TIMEOUT=4000
+50076 TFTP_FILE_TIMEOUT=30000
+5008e TFTP_IP=
+50097 TFTP_PREFIX=0

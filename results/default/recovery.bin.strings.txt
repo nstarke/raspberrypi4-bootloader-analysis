@@ -1,0 +1,73 @@
+1cd0 EFI PART
+1cdc GPT: No bootable partitions
+1f1e BUFF
+1f5e BUFF
+1f9a BUFF
+23f4 none
+23fc pi0w
+2404 pi3+
+240c pi400
+2474 gpio%d %d=%d
+2528 gpio
+2724 Stop display
+2734 Display stopped
+2a80 Update failed
+2aa0 Verify VL805 EEPROM
+2acc VL805 EEPROM is up to date
+2cdc Erasing EEPROM
+2cec Writing EEPROM
+2cfc Verify BOOT EEPROM
+2d10 BOOT-EEPROM: UPDATED
+2d28 Bootloader EEPROM is up to date
+3298 '%s' already exists
+4058 %s not found
+4178 Read %s failed
+5874 RPi4 
+5b20 sdcard
+6b1c PCI reset
+73d4  RECOVERY
+73e0 RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x 0x%08x
+808c POOL
+8558 RECOVERY
+8678 Recovery failed
+8c18 No EEPROM files
+8d10 Update failed
+8ed8 sdcard
+9330 SD error: disable high speed
+af84 RESET
+b268 SPI error: %x %u %u %u %u %u
+c1e0 USBDEV%d
+ca3c eeprom_write_protect
+ca51 recovery_wait
+ca5f uart_2ndstage
+ca6d recovery.bin
+ca7a pieeprom.bin
+ca87 pieeprom.upd
+ca94 pieeprom.sig
+caa1 vl805.bin
+caab vl805.sig
+cac0 DHCP_OPTION97
+cace XHCI_DEBUG
+cad9 NETCONSOLE
+cae4 ENABLE_SELF_UPDATE
+caf7 USB_MSD_PWR_OFF_TIME
+cb0c HDMI_DELAY
+cb17 SD_BOOT_MAX_RETRIES
+cb35 WAKE_ON_GPIO
+cb42 POWER_OFF_ON_HALT
+cb54 NET_BOOT_MAX_RETRIES
+cb69 USB_DEV_BOOT_MAX_RETRIES
+cb82 USB_DEV_FILE_TIMEOUT
+cb97 DHCP_TIMEOUT
+cba4 DHCP_REQ_TIMEOUT
+cbb5 TFTP_FILE_TIMEOUT
+cbd4 BOOT_ORDER
+cbdf MAX_RESTARTS
+cbec TFTP_PREFIX
+cbf8 TFTP_PREFIX_STR
+cc08 MAC_ADDRESS
+cc2b FREEZE_VERSION
+d008 TFTP_IP
+d017 GATEWAY
+185a1 release
+186dc BUSBP

@@ -1,0 +1,223 @@
+1520 ramdisk
+1c20 STOP
+1c28 NETWORK
+1c30 RPIBOOT
+1c38 USB-MSD
+1c40 RAMDISK
+1c48 RESTART
+1c50 BCM-USB-MSD
+26bc EFI PART
+26c8 GPT: No bootable partitions
+2a94 BOOTLOADER
+2d7c Insert SD-CARD
+2fec Missing/empty '%s' continuing
+31dc NETBOOT init failed
+35ec USB MSD timed out after %d seconds
+375c ramdisk
+3c48 Custom firmware
+3cc4 %s: is not compatible
+3cdc .text.bootloader_state
+3d60 %s boot requires newer software
+3da4 This board requires newer software
+3dc8 Get the latest software from https://www.raspberrypi.org/downloads/
+414c Firmware not found
+4160 EEPROMs updated. Rebooting
+44ac BUFF
+44ec BUFF
+452e BUFF
+4580 BUFF
+462e USBCr|
+4b24 none
+4b2c pi0w
+4b34 pi3+
+4b3c pi400
+4b44 board-type
+4bb0 gpio%d %d=%d
+4c64 gpio
+5494 Raspberry Pi %s - %uGB
+54d2    tftp: %i %e
+5c48 Update failed
+5c68 Verify VL805 EEPROM
+5c94 VL805 EEPROM is up to date
+5ea4 Erasing EEPROM
+5eb4 Writing EEPROM
+5ec4 Verify BOOT EEPROM
+5ed8 BOOT-EEPROM: UPDATED
+5ef0 Bootloader EEPROM is up to date
+7248 Verifying
+7278 RSA signature not verified
+7410 ramdisk
+74c8 %s not found
+764c Read %s failed
+7b14 LINK STATUS: speed: %d %s duplex
+9b3a RPi4"
+9e08 sdcard
+c4c4 Samsung
+c4cc Unknown
+d200 OFFER
+d208 INFORM
+d210 REQUEST
+d218 DECLINE
+d220 RELEASE
+d228 DISCOVER
+d234 LEASE_QUERY
+d2cc NET %i %i gw %i tftp %i
+d698 PXEClient
+d6bc DHCP src: %e %i
+d6cc Raspberry Pi Boot
+d6f4 DHCP recv %s (%d) expect %s
+da04 NETBOOT CANCEL
+e1fc NET_CONSOLE: wait for link
+e218 NET_BOOT: %e wait for link TFTP: %i
+e2d4 Link ready
+e3f0 Stopping network
+f524 Invalid GPIO command %s
+f53c gpio_cmd: '%s' pins: %d-%d drive: %d fsel: %d term: %d
+10804  BOOTLOADER
+10810 RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x 0x%08x
+10fd8 tsize
+10fe0 blksize
+11348 RSA verify
+11f76 POOL
+1288c sdcard
+12ce4 SD error: disable high speed
+14b4c RESET
+14ee0 SPI error: %x %u %u %u %u %u
+150b4 bootcode.bin
+152ec %s mismatch
+15658 SPI WEL timeout
+15a1c TFTP%d
+15abc Early terminate
+15b14 TFTP: disconnect: timeouts %d
+15bd8 TFTP_GET: %e %i %s
+15c78 TFTP %d: %s
+15d04 TFTP: complete %u
+16f18 INQUIRY
+16f20 REQUEST-SENSE
+16f30 READ_CAPACITY
+16f40 TEST_UNIT_READY
+1709a USBS
+173e8 USB_HOST%d
+1761c USB delay %u
+1762c USB xHC init failed
+17640 Reset USB port-power %d ms
+17a68 USBDEV%d
+17d90 HUB2.0 fail
+188fc USB%d[%d] %08x%s%s%s
+18914 USB%d root HUB port %d init
+18ee0 DEV %s class %d VID %04x PID %04x
+1969c %s skipping VID %04x PID %04x
+1a700 USB 
+1a950 xHC reset USBSTS: %x
+1aef8 XHCI-STOP
+1af04 USBSTS %x
+1af10 xHC stop USBSTS: %x
+1b484 DHCP_OPTION97
+1b492 XHCI_DEBUG
+1b49d NETCONSOLE
+1b4a8 ENABLE_SELF_UPDATE
+1b4bb USB_MSD_PWR_OFF_TIME
+1b4d0 HDMI_DELAY
+1b4db SD_BOOT_MAX_RETRIES
+1b4f9 WAKE_ON_GPIO
+1b506 POWER_OFF_ON_HALT
+1b518 NET_BOOT_MAX_RETRIES
+1b52d USB_DEV_BOOT_MAX_RETRIES
+1b546 USB_DEV_FILE_TIMEOUT
+1b55b USB_MSD_STARTUP_DELAY
+1b571 USB_MSD_DISCOVER_TIMEOUT
+1b58a USB_MSD_LUN_TIMEOUT
+1b59e USB_MSD_EXCLUDE_VID_PID
+1b5b6 DHCP_TIMEOUT
+1b5c3 DHCP_REQ_TIMEOUT
+1b5d4 TFTP_FILE_TIMEOUT
+1b5f3 BOOT_ORDER
+1b5fe MAX_RESTARTS
+1b60b TFTP_PREFIX
+1b617 TFTP_PREFIX_STR
+1b627 MAC_ADDRESS
+1b64a FREEZE_VERSION
+1b659 SIGNED_BOOT
+1b668 boot_partition
+1b677 bootloader_update
+1b689 eeprom_write_protect
+1b69e boot_load_flags
+1b6ae bootcode_delay
+1b6fe start_debug
+1b70a uart_2ndstage
+1b718 fixup_file
+1b723 start_file
+1b72e boot_ramdisk
+1b73b Failed to open device
+1b761 bootconf.sig
+1b888 pieeprom.upd
+1b895 pieeprom.bin
+1b8a2 pieeprom.sig
+1b8af vl805.bin
+1b8b9 vl805.sig
+1b8c3 vl805hub.bin
+1b8d0 vl805mcu.bin
+1b8dd logo.bin
+1b8e6 qrcode.bin
+1b8f1 font.bin
+1b8fa pubkey.bin
+1b90e boot.sig
+1b923 tryboot.sig
+1b92f memsys00.bin
+1b93c memsys01.bin
+1b949 memsys02.bin
+1b956 memsys03.bin
+1b963 memsys04.bin
+1b970 memsys05.bin
+1b97d memsys06.bin
+1b98a memsys07.bin
+1b997 memsys08.bin
+1c328 TFTP_IP
+1c337 GATEWAY
+1c4c4 mcb.bin
+1d009 skip
+1d010 half
+1d015 full
+1d026 tsize
+1d02c blksize
+1d046 down
+1d22c  connected
+1d237  enabled
+1d240  over-current
+1d24e xhci_set_port_power
+1d270 detected
+1d279 not detected
+1d57d release
+1d6bc BUSBP
+20008 memsys00.bin
+23818 memsys01.bin
+26713 GDAOLOTS
+267ae  doMe
+267c7 X4BCM
+26ac8 memsys02.bin
+29736  doMe
+2974f X4BCM
+29970 memsys03.bin
+2c415  marpimiTg
+2c4f6 PiFwo
+2c70e 5kmemsys04.bin
+2f8cd  dhoMe
+2f8e6 X4 BCM
+2fc86 6jmemsys05.bin
+33300 memsys06.bin
+363f1 doMe
+36408 X@4BCM
+365e8 memsys07.bin
+398e1  doMe
+398fa X4BCM
+39ade 1Dmemsys08.bin
+3cc2f Nmcb.bin
+3dc87 tvl805hub.bin
+3f808 vl805mcu.bin
+4e408 logo.bin
+501ef Gfont.bin
+5210c ON-XFILE
+52140 qrcode.bin
+53008 pubkey.bin
+54008 bootconf.sig
+5502a WAKE_ON_GPIO=1

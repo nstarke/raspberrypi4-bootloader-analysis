@@ -1,0 +1,198 @@
+1328 ramdisk
+1a20 STOP
+1a28 NETWORK
+1a30 RPIBOOT
+1a38 USB-MSD
+1a40 RESTART
+1a48 BCM-USB-MSD
+2428 EFI PART
+2434 GPT: No bootable partitions
+27b0 BOOTLOADER
+2aac Insert SD-CARD
+2d98 Missing/empty '%s' continuing
+2f64 NETBOOT init failed
+3280 USB MSD timed out after %d seconds
+380c Custom firmware
+3888 %s: is not compatible
+38a0 .text.bootloader_state
+3924 %s boot requires newer software
+3968 This board requires newer software
+398c Get the latest software from https://www.raspberrypi.org/downloads/
+3ce4 Firmware not found
+3cf8 EEPROMs updated. Rebooting
+3fc4 BUFF
+4004 BUFF
+4046 BUFF
+4098 BUFF
+4146 USBCr|
+458c none
+4594 pi0w
+459c pi3+
+45a4 pi400
+460c gpio%d %d=%d
+46c0 gpio
+4ef0 Raspberry Pi %s - %uGB
+4f2e    tftp: %i %e
+504c Stop display
+505c Display stopped
+56d8 Update failed
+56f8 Verify VL805 EEPROM
+5724 VL805 EEPROM is up to date
+5934 Erasing EEPROM
+5944 Writing EEPROM
+5954 Verify BOOT EEPROM
+5968 BOOT-EEPROM: UPDATED
+5980 Bootloader EEPROM is up to date
+6c1c %s not found
+6da4 Read %s failed
+722c LINK STATUS: speed: %d %s duplex
+921e RPi4 
+94d4 sdcard
+a5f0 Samsung
+a5f8 Unknown
+acb0 OFFER
+acb8 INFORM
+acc0 REQUEST
+acc8 DECLINE
+acd0 RELEASE
+acd8 DISCOVER
+ace4 LEASE_QUERY
+ad7c NET %i %i gw %i tftp %i
+b148 PXEClient
+b16c DHCP src: %e %i
+b17c Raspberry Pi Boot
+b1a4 DHCP recv %s (%d) expect %s
+b4b4 NETBOOT CANCEL
+bcac NET_CONSOLE: wait for link
+bcc8 NET_BOOT: %e wait for link TFTP: %i
+bd84 Link ready
+bea0 Stopping network
+cfd4 Invalid GPIO command %s
+cfec gpio_cmd: '%s' pins: %d-%d drive: %d fsel: %d term: %d
+e010  BOOTLOADER
+e01c RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x 0x%08x
+e7f8 tsize
+e800 blksize
+f35e POOL
+fb18 sdcard
+ff70 SD error: disable high speed
+11dc8 RESET
+1213c SPI error: %x %u %u %u %u %u
+12310 bootcode.bin
+1250c %s mismatch
+12bf8 TFTP%d
+12c98 Early terminate
+12cf0 TFTP: disconnect: timeouts %d
+12db0 TFTP_GET: %e %i %s
+12e50 TFTP %d: %s
+12edc TFTP: complete %u
+140f0 INQUIRY
+140f8 REQUEST-SENSE
+14108 READ_CAPACITY
+14118 TEST_UNIT_READY
+14272 USBS
+14574 USB_HOST%d
+1477c USB xHC init failed
+14790 Reset USB port-power %d ms
+14bac USBDEV%d
+14ec0 HUB2.0 fail
+15a48 USB%d[%d] %08x%s%s%s
+15a60 USB%d root HUB port %d init
+1602c DEV %s class %d VID %04x PID %04x
+167e8 %s skipping VID %04x PID %04x
+1784c USB 
+17a9c xHC reset USBSTS: %x
+18044 XHCI-STOP
+18050 USBSTS %x
+1805c xHC stop USBSTS: %x
+185c4 DHCP_OPTION97
+185d2 XHCI_DEBUG
+185dd NETCONSOLE
+185e8 ENABLE_SELF_UPDATE
+185fb USB_MSD_PWR_OFF_TIME
+18610 HDMI_DELAY
+1861b SD_BOOT_MAX_RETRIES
+18639 WAKE_ON_GPIO
+18646 POWER_OFF_ON_HALT
+18658 NET_BOOT_MAX_RETRIES
+1866d USB_DEV_BOOT_MAX_RETRIES
+18686 USB_DEV_FILE_TIMEOUT
+1869b USB_MSD_DISCOVER_TIMEOUT
+186b4 USB_MSD_LUN_TIMEOUT
+186c8 USB_MSD_EXCLUDE_VID_PID
+186e0 DHCP_TIMEOUT
+186ed DHCP_REQ_TIMEOUT
+186fe TFTP_FILE_TIMEOUT
+1871d BOOT_ORDER
+18728 MAX_RESTARTS
+18735 TFTP_PREFIX
+18741 TFTP_PREFIX_STR
+18751 MAC_ADDRESS
+18774 FREEZE_VERSION
+18784 boot_partition
+18793 bootloader_update
+187a5 eeprom_write_protect
+187ba boot_load_flags
+187ca bootcode_delay
+1881a start_debug
+18826 uart_2ndstage
+18834 fixup_file
+1883f start_file
+1884a Failed to open device
+1897a pieeprom.upd
+18987 pieeprom.bin
+18994 pieeprom.sig
+189a1 vl805.bin
+189ab vl805.sig
+189b5 vl805hub.bin
+189c2 vl805mcu.bin
+189cf logo.bin
+189d8 qrcode.bin
+189e3 font.bin
+189ec memsys00.bin
+189f9 memsys01.bin
+18a06 memsys02.bin
+18a13 memsys03.bin
+18a20 memsys04.bin
+18a2d memsys05.bin
+18a3a memsys06.bin
+18a47 memsys07.bin
+1909c TFTP_IP
+190ab GATEWAY
+19238 mcb.bin
+1d009 skip
+1d010 half
+1d015 full
+1d026 tsize
+1d02c blksize
+1d046 down
+1d208  connected
+1d213  enabled
+1d21c  over-current
+1d22a xhci_set_port_power
+1d24c detected
+1d255 not detected
+1d4f9 release
+1d634 BUSBP
+20008 memsys00.bin
+232c4 GDAOLOTS
+23306 OO.edopy
+236d8 memsys01.bin
+26696 7[memsys02.bin
+29e00 memsys03.bin
+2d411 evPiVx2
+2d5f0 memsys04.bin
+30b9d nspi I 
+30cf0 memsys05.bin
+341d6 4amemsys06.bin
+373b6 GDAOLOTS
+37648 memsys07.bin
+3a8a3 pets
+3a9df ;mcb.bin
+3b627 tvl805hub.bin
+3d1a8 vl805mcu.bin
+4bda8 logo.bin
+4db8f Gfont.bin
+4faac ON-XFILE
+4fae0 qrcode.bin
+5102a WAKE_ON_GPIO=1

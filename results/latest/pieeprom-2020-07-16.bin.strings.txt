@@ -1,0 +1,182 @@
+153c STOP
+1544 NETWORK
+154c USB-DEV
+1554 USB-MSD
+155c RESTART
+1f40 EFI PART
+1f4c GPT: No bootable partitions
+22e4 BOOTLOADER
+25e8 Insert SD-CARD
+29d0 Missing/empty '%s' continuing
+2b68 NETBOOT init failed
+2df0 USB MSD timed out after %d seconds
+3234 Custom firmware
+3270 %s: is not compatible
+3288 .text.bootloader_state
+330c %s boot requires newer software
+3350 This board requires newer software
+3374 Get the latest software from https://www.raspberrypi.org/downloads/
+368c Firmware not found
+36a0 EEPROMs updated. Rebooting
+3892 BUFF
+38d2 BUFF
+3914 BUFF
+3932 BUFF
+39de USBCr|
+3de8 none
+3df0 pi0w
+3df8 pi3+
+3e60 gpio%d %d=%d
+3f10 gpio
+46d4 Raspberry Pi 4 - %uGB
+470e    tftp: %i %e
+4ce4 Update failed
+4d04 Verify VL805 EEPROM
+4d30 VL805 EEPROM is up to date
+4f18 Erasing EEPROM
+4f28 Writing EEPROM
+4f38 Verify BOOT EEPROM
+4f4c Bootloader EEPROM is up to date
+60d4 %s not found
+61f4 Read %s failed
+6608 LINK STATUS: speed: %d %s duplex
+82e2 RPi4$
+853c sdcard
+9770 Samsung
+9778 Unknown
+9dec OFFER
+9df4 INFORM
+9dfc REQUEST
+9e04 DECLINE
+9e0c RELEASE
+9e14 DISCOVER
+9e20 LEASE_QUERY
+9eb8 NET %i %i gw %i tftp %i
+a284 PXEClient
+a2a8 DHCP src: %e %i
+a2b8 Raspberry Pi Boot
+a2e0 DHCP recv %s (%d) expect %s
+a5e4 NETBOOT CANCEL
+add4 NET_CONSOLE: wait for link
+adf0 NET_BOOT: %e wait for link TFTP: %i
+aeac Link ready
+b684 Invalid GPIO command %s
+b69c gpio_cmd: '%s' pins: %d-%d drive: %d fsel: %d term: %d
+c620  BOOTLOADER
+c62c RPi:%s %s %s %s %s BOOTMODE: 0x%08x part: %d %s 0x%08x 0x%08x
+cd04 tsize
+cd0c blksize
+d772 POOL
+de18 sdcard
+e274 SD error: disable high speed
+1005c RESET
+10334 SPI error: %x %u %u %u %u %u
+10518 bootcode.bin
+10764 %s mismatch
+10bf0 TFTP%d
+10c90 Early terminate
+10ce8 TFTP: disconnect: timeouts %d
+10da8 TFTP_GET: %e %i %s
+10e48 TFTP %d: %s
+10ec0 TFTP: complete %u
+12024 INQUIRY
+1202c REQUEST-SENSE
+1203c READ_CAPACITY
+1204c TEST_UNIT_READY
+121a4 USBS
+1244c USB_HOST%d
+125dc USB xHC init failed
+12998 USBDEV%d
+12ca4 HUB2.0 fail
+137f0 USB%d rport %d status %08x -> %08x
+13dc4 DEV %s class %d VID %04x PID %04x
+14574 %s skipping VID %04x PID %04x
+14a54 Reset USB port-power %d ms
+1567c USB 
+15874 xHC reset USBSTS: %x
+15d90 XHCI-STOP
+15d9c xHC stop USBSTS: %x
+162c4 boot_partition
+162d3 bootloader_update
+162e5 eeprom_write_protect
+162fa boot_load_flags
+1630a bootcode_delay
+1635a start_debug
+16366 uart_2ndstage
+16374 fixup_file
+1637f start_file
+16395 mfg_test
+1639e Failed to open device
+163b4 DHCP_OPTION97
+163c2 XHCI_DEBUG
+163cd NETCONSOLE
+163d8 ENABLE_SELF_UPDATE
+163eb USB_MSD_PWR_OFF_TIME
+1640a WAKE_ON_GPIO
+16417 POWER_OFF_ON_HALT
+16429 NET_BOOT_MAX_RETRIES
+1643e SD_BOOT_MAX_RETRIES
+16452 USB_DEV_BOOT_MAX_RETRIES
+1646b USB_DEV_FILE_TIMEOUT
+16480 USB_MSD_DISCOVER_TIMEOUT
+16499 USB_MSD_LUN_TIMEOUT
+164ad USB_MSD_EXCLUDE_VID_PID
+164c5 DHCP_TIMEOUT
+164d2 DHCP_REQ_TIMEOUT
+164e3 TFTP_FILE_TIMEOUT
+16502 BOOT_ORDER
+1650d MAX_RESTARTS
+1651a TFTP_PREFIX
+16526 TFTP_PREFIX_STR
+16536 MAC_ADDRESS
+16559 FREEZE_VERSION
+1672a pieeprom.upd
+16737 pieeprom.bin
+16744 pieeprom.sig
+16751 vl805.bin
+1675b vl805.sig
+16765 vl805hub.bin
+16772 vl805mcu.bin
+1677f logo.bin
+16788 qrcode.bin
+16793 font.bin
+1679c memsys00.bin
+167a9 memsys01.bin
+167b6 memsys02.bin
+167c3 memsys03.bin
+167d0 memsys04.bin
+167dd memsys05.bin
+167ea memsys06.bin
+167f7 memsys07.bin
+16dd0 TFTP_IP
+16ddf GATEWAY
+16f54 mcb.bin
+17812 down
+17818 half
+1781d full
+17832 tsize
+17838 blksize
+179e0 detected
+179e9 not detected
+17c5d release
+17d88 BUSBP
+20006 6Fmemsys00.bin
+23658 memsys01.bin
+265f8 memsys02.bin
+29d06 7imemsys03.bin
+2d10a iFwore
+2d480 memsys04.bin
+30b60 memsys05.bin
+33ffe 4<memsys06.bin
+37448 memsys07.bin
+3a7f7 ;mcb.bin
+3b43f tvl805hub.bin
+3cfc0 vl805mcu.bin
+4bbc0 logo.bin
+4d9a7 Gfont.bin
+4f8c4 ON-XFILE
+4f8f8 qrcode.bin
+5002a WAKE_ON_GPIO=1
+5004d DHCP_TIMEOUT=45000
+50060 DHCP_REQ_TIMEOUT=4000
+50076 TFTP_FILE_TIMEOUT=30000
