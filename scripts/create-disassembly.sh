@@ -39,4 +39,5 @@ if [ ! -f "$FILENAME.map.txt" ]; then
 		"$FILENAME.map.txt"
 	
 	sh map-registers.sh "$FILENAME.map.txt"
+	python3 map-functions.py "$FILENAME.map.txt"
 fi

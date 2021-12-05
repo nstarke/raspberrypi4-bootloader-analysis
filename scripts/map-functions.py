@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# find . -name "*.map.txt" -type f -exec python3 scripts/map-functions.py {} \;
-import sys, re, copy, functools
+
+import sys, re, copy
 
 MAP_FILE = sys.argv[1]
 
@@ -16,7 +16,7 @@ xref_search = copy.deepcopy(lines)
 for idx, line in enumerate(lines):
     orig_str = line
     orig_addr = orig_str.split(':')[0]
-    if 'XREF:' not in orig_str and re.search(prog, orig_str):
+    if re.search(prog, orig_str):
         orig_xref = orig_str[-11:].strip()
         for xref_idx, xref in enumerate(xref_search):
             xref_str = xref.strip()
