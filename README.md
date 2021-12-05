@@ -6,7 +6,7 @@ I disassembled the various `rpi-eeprom.bin` files using [vc4-toolchain](https://
 
 # Great?
 
-The disassembly files have some super basic, fairly crappy "analysis" applied to them.  Basically I wrote some scripts that compare the `strings` output to the `objdump` output and try to match things up.  It is definitely prone to error and inaccuracy, but I was aiming for best effort.  This repository contains the original disassembly (`*.disassembly.bin`) as well as my mapped disassembly (`*.map.bin`) so you can reference both of them if you want to do some analysis.
+The disassembly files have some super basic, fairly crappy "analysis" applied to them.  Basically I wrote some scripts that compare the `strings` output to the `objdump` output and try to match things up.  It is definitely prone to error and inaccuracy, but I was aiming for best effort.  I also attempted to mark where addresses are branched from with the `BREF` annotation. This repository contains the original disassembly (`*.disassembly.bin`) as well as my mapped disassembly (`*.map.bin`) so you can reference both of them if you want to do some analysis.
 
 # Why?
 
@@ -36,4 +36,4 @@ Yes.
 
 Some of the `STRING` and `XREF` annotations in the `*.map.txt` files that are invalid. Feel free to remove some of those from the results if you want and submit a PR.  Also if you could update the scripts to ensure that a given false positive will not happen again, that would be swell.
 
-tl;dr: send a pull request if you like.
+Also, please do not create issues saying some part of my annotations are incorrect.  If you **know** they are incorrect and it bothers you enough to want to create an issue, please just submit a pull request fixing the annotation.
