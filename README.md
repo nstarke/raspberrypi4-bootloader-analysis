@@ -34,6 +34,6 @@ Yes.
 
 # How?
 
-Some of the `STRING` and `XREF` annotations in the `*.map.txt` files that are invalid. Feel free to remove some of those from the results if you want and submit a PR.  Also if you could update the scripts to ensure that a given false positive will not happen again, that would be swell.
+Some of the `STRING` and `XREF` annotations in the `*.map.txt` files are invalid. Feel free to remove some of those from the results if you want and submit a PR.  Also if you could update the scripts to ensure that a given false positive will not happen again, that would be swell.
 
 Also, please do not create issues saying some part of my annotations are incorrect.  If you **know** they are incorrect and it bothers you enough to want to create an issue, please just submit a pull request fixing the annotation.
