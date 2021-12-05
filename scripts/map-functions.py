@@ -4,7 +4,6 @@ import sys, re, copy, functools
 
 MAP_FILE = sys.argv[1]
 
-
 prog = re.compile(r'0x([a-fA-F0-9]{8})$')
 map_file = open(MAP_FILE, 'r')
 lines = map_file.readlines()
@@ -23,8 +22,8 @@ for idx, line in enumerate(lines):
             xref_str = xref.strip()
             xref_addr = xref_str.split(':')[0]
             if xref_addr == orig_xref:
-                f_ref = "\t\t\t\t; FREF: " + orig_addr + '\n'
-                output[xref_idx] = (xref_str + f_ref, True)
+                b_ref = "\t\t\t\t; BREF: " + orig_addr + '\n'
+                output[xref_idx] = (xref_str + b_ref, True)
                 break
     
     if not output[idx][1]:  
