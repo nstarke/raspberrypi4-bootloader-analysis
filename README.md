@@ -1,3 +1,5 @@
+# Use the Ghidra Language Definition in this Pull Request: https://github.com/NationalSecurityAgency/ghidra/pull/1147 - it works for the rpi-eeprom images and using ghidra is a much better approach than using the results in this repository.  Thanks @mumbel
+
 # Raspberry Pi 4 Bootloader Analysis
 
 This repository contains my "processed" disassembly of the contents of the Raspberry Pi4 bootloader.  This is the contents of the `rpi-eeprom` package, and the files are available on Github [here](https://github.com/raspberrypi/rpi-eeprom/tree/master/firmware).
