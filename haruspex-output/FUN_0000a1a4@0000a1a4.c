@@ -70,8 +70,8 @@ undefined4 * FUN_0000a1a4(int param_1)
       if (iVar6 == 0) {
         return puVar8;
       }
-      _write_to_stderr((byte *)s_EEPROM_RSA_key_mismatch__32H__32_0000a280,(uint)abStack_60,
-                       abStack_80,extraout_r3_01,extraout_r4_01,extraout_r5_01);
+      FUN_0000a2ac((byte *)s_EEPROM_RSA_key_mismatch__32H__32_0000a280,(uint)abStack_60,abStack_80,
+                   extraout_r3_01,extraout_r4_01,extraout_r5_01);
       uVar3 = extraout_r1_00;
       uVar4 = extraout_r2_01;
       uVar5 = extraout_r3_02;
@@ -80,7 +80,8 @@ undefined4 * FUN_0000a1a4(int param_1)
     }
   }
   *(undefined4 *)(unaff_gp + 0x5b5c) = 0;
-  FUN_0000e198((byte *)s_Customer_public_key_not_loaded__0000a260,uVar3,uVar4,uVar5,iVar6,uVar7);
+  _write_to_stdout((byte *)s_Customer_public_key_not_loaded__0000a260,uVar3,uVar4,uVar5,iVar6,uVar7)
+  ;
   return (undefined4 *)0x0;
 }
 

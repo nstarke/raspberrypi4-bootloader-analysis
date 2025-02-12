@@ -20,8 +20,8 @@ void FUN_00009d90(undefined4 param_1,undefined4 param_2)
   else {
     uVar2 = unaff_gp + 0x14;
   }
-  FUN_0000e198((byte *)s_uSD_voltage__sV_00009e38,uVar2,extraout_r2,extraout_r3,extraout_r4,
-               extraout_r5);
+  _write_to_stdout((byte *)s_uSD_voltage__sV_00009e38,uVar2,extraout_r2,extraout_r3,extraout_r4,
+                   extraout_r5);
   if (iVar1 == 1) {
     iVar1 = FUN_0000a4d4();
     if ((iVar1 == 0) && (*(int *)(unaff_gp + 0x2d4) != 0)) {

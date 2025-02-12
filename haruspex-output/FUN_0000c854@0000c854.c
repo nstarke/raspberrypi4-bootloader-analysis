@@ -34,8 +34,8 @@ uint FUN_0000c854(uint param_1,int param_2,int param_3)
       uVar3 = (_DAT_7c001090 & 0xff0000) >> 0x10;
     }
     else {
-      _write_to_stderr((byte *)s_SD_MR__08x_R_timeout__d__d__d_rd_0000c8d0,_DAT_7c001090,param_1,
-                       param_2,param_3,uVar2);
+      FUN_0000a2ac((byte *)s_SD_MR__08x_R_timeout__d__d__d_rd_0000c8d0,_DAT_7c001090,param_1,param_2
+                   ,param_3,uVar2);
     }
   }
   FUN_0000c7f4();

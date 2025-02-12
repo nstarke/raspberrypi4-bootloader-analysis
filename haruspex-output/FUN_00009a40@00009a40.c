@@ -171,8 +171,7 @@ LAB_00009b20:
     } while (*pcVar3 == ',');
   }
 LAB_00009b12:
-  _write_to_stderr((byte *)s_Invalid_GPIO_command__s_00009c54,(uint)param_1,uVar7,uVar8,pbVar10,
-                   iVar4);
+  FUN_0000a2ac((byte *)s_Invalid_GPIO_command__s_00009c54,(uint)param_1,uVar7,uVar8,pbVar10,iVar4);
   return;
 LAB_00009b34:
   iVar5 = FUN_00009ca4(&local_2c,&local_30);
@@ -198,8 +197,8 @@ LAB_00009b34:
   else {
     local_34 = local_30;
   }
-  FUN_0000e198((byte *)s_gpio_cmd____s__pins___d__d_drive_00009c6c,(uint)param_1,local_30,local_34,
-               uVar11,uVar13);
+  _write_to_stdout((byte *)s_gpio_cmd____s__pins___d__d_drive_00009c6c,(uint)param_1,local_30,
+                   local_34,uVar11,uVar13);
   uVar8 = extraout_r3_10;
   if (local_30 <= local_34) {
     do {

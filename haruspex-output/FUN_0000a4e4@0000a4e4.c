@@ -42,7 +42,7 @@ undefined4 FUN_0000a4e4(void)
     uVar9 = extraout_r5_00;
     if (iVar3 == 0) {
       uVar11 = FUN_000090a8(0x10ab);
-      iVar4 = FUN_00008d34(uVar11,*(undefined4 **)(*piVar2 + 4),*(int *)(*piVar2 + 8));
+      iVar4 = _sdram_config(uVar11,*(undefined4 **)(*piVar2 + 4),*(int *)(*piVar2 + 8));
       if (-1 < iVar4) {
         iVar3 = 5;
         uVar12 = 0;
@@ -83,8 +83,7 @@ LAB_0000a5ba:
     else {
 LAB_0000a5be:
       uVar11 = 0xfffffffe;
-      _write_to_stderr((byte *)s_Missing_or_corrupted_SDRAM_FW_0000a5d8,uVar6,iVar4,uVar7,uVar8,
-                       uVar9);
+      FUN_0000a2ac((byte *)s_Missing_or_corrupted_SDRAM_FW_0000a5d8,uVar6,iVar4,uVar7,uVar8,uVar9);
       FUN_0000a3e8(0x31);
     }
   }

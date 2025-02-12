@@ -2,36 +2,36 @@
 void FUN_0000aa0c(void)
 
 {
-  uint uVar1;
-  bool bVar2;
-  int *piVar3;
-  uint uVar4;
-  int iVar5;
+  int *intPointer;
+  uint index;
+  int counter;
+  uint currentValue;
+  bool isExpected;
   
-  bVar2 = false;
-  iVar5 = 0;
-  piVar3 = (int *)&DAT_c1000000;
+  isExpected = false;
+  counter = 0;
+  intPointer = (int *)&DAT_c1000000;
   do {
-    *piVar3 = iVar5;
-    iVar5 = iVar5 + 1;
-    piVar3 = piVar3 + 1;
-  } while (iVar5 < 0x100000);
+    *intPointer = counter;
+    counter = counter + 1;
+    intPointer = intPointer + 1;
+  } while (counter < 0x100000);
   do {
-    if (bVar2) {
+    if (isExpected) {
       return;
     }
-    uVar4 = 0;
+    index = 0;
     do {
-      uVar1 = *(uint *)(&DAT_c1000000 + uVar4 * 4);
-      if (uVar4 != uVar1) {
-        _write_to_stderr((byte *)s_Loop__d_address__p_expected__08x_0000aa58,1,
-                         &DAT_c1000000 + uVar4 * 4,uVar4,uVar1,iVar5);
+      currentValue = *(uint *)(&DAT_c1000000 + index * 4);
+      if (index != currentValue) {
+        FUN_0000a2ac((byte *)s_Loop__d_address__p_expected__08x_0000aa58,1,&DAT_c1000000 + index * 4
+                     ,index,currentValue,counter);
         FUN_0000a3e8(8);
         return;
       }
-      uVar4 = uVar4 + 1;
-    } while (uVar4 < 0x100000);
-    bVar2 = true;
+      index = index + 1;
+    } while (index < 0x100000);
+    isExpected = true;
   } while( true );
 }
 

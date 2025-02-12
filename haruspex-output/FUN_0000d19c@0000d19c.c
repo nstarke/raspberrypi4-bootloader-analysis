@@ -27,13 +27,13 @@ undefined4 FUN_0000d19c(void)
        (iVar1 = FUN_0000dd52(&local_d), iVar1 < 0)) goto LAB_0000d24e;
     if ((local_d & 0xbc) != 0) {
       uVar2 = 0xe;
-      _write_to_stderr((byte *)s_EEPROM_is_write_protected___02x__0000d26c,(uint)local_d,extraout_r2
-                       ,extraout_r3,local_d & 0xbc,extraout_r5);
+      FUN_0000a2ac((byte *)s_EEPROM_is_write_protected___02x__0000d26c,(uint)local_d,extraout_r2,
+                   extraout_r3,local_d & 0xbc,extraout_r5);
       goto LAB_0000d24e;
     }
     FUN_0000dc48();
-    FUN_0000e198((byte *)s_EEPROM_CWP___02x_0000d258,(uint)local_d,extraout_r2_00,extraout_r3_00,
-                 extraout_r4,extraout_r5_00);
+    _write_to_stdout((byte *)s_EEPROM_CWP___02x_0000d258,(uint)local_d,extraout_r2_00,extraout_r3_00
+                     ,extraout_r4,extraout_r5_00);
   }
   uVar2 = 0;
 LAB_0000d24e:

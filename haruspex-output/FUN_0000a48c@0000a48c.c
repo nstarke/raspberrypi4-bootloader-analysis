@@ -14,8 +14,8 @@ void FUN_0000a48c(undefined4 param_1,uint param_2)
   
   bVar2 = FUN_00000666();
   if (CONCAT31(extraout_var,bVar2) != 0) {
-    FUN_0000e198((byte *)s_Halt__power_off___u_0000a4c0,param_2,extraout_r2,extraout_r3,extraout_r4,
-                 extraout_r5);
+    _write_to_stdout((byte *)s_Halt__power_off___u_0000a4c0,param_2,extraout_r2,extraout_r3,
+                     extraout_r4,extraout_r5);
     uVar3 = FUN_0000e072();
     if (param_2 == 0) {
       FUN_0000053c(1);

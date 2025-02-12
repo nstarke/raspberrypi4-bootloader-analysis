@@ -64,7 +64,8 @@ uint FUN_0000ae2c(void)
     uVar4 = extraout_r4;
     uVar5 = extraout_r5;
 LAB_0000aedc:
-    FUN_0000e198((byte *)s_PCIEx1__PWR__d_DET_WAKE__d_0000af14,local_1c,local_20,uVar3,uVar4,uVar5);
+    _write_to_stdout((byte *)s_PCIEx1__PWR__d_DET_WAKE__d_0000af14,local_1c,local_20,uVar3,uVar4,
+                     uVar5);
     if (((local_1c == 0) && (local_20 == 0)) && (*(int *)(&DAT_00002d08 + unaff_gp) == 0))
     goto LAB_0000aefc;
   }

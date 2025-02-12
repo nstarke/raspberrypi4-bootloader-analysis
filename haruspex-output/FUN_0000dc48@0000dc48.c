@@ -11,8 +11,8 @@ void FUN_0000dc48(void)
   
   iVar1 = FUN_0000af30(&LAB_0000d72a,0,100000,1000);
   if (iVar1 < 0) {
-    _write_to_stderr((byte *)s_SPI_WEL_timeout_0000dc70,extraout_r1,extraout_r2,extraout_r3,
-                     extraout_r4,extraout_r5);
+    FUN_0000a2ac((byte *)s_SPI_WEL_timeout_0000dc70,extraout_r1,extraout_r2,extraout_r3,extraout_r4,
+                 extraout_r5);
   }
   return;
 }

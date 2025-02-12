@@ -38,8 +38,8 @@ void FUN_00000a94(void)
   piVar9 = (int *)(unaff_gp + 0x38);
   FUN_00001078(*piVar9);
   if (_DAT_7d5040dc != 0) {
-    FUN_0000e198((byte *)s_BOOT_ORDER_override__0x_08x_00001018,_DAT_7d5040dc,extraout_r2,
-                 extraout_r3,extraout_r4,_DAT_7d5040dc);
+    _write_to_stdout((byte *)s_BOOT_ORDER_override__0x_08x_00001018,_DAT_7d5040dc,extraout_r2,
+                     extraout_r3,extraout_r4,_DAT_7d5040dc);
     *(uint *)(&DAT_00002db0 + unaff_gp) = _DAT_7d5040dc;
   }
   _DAT_7d5040dc = 0;

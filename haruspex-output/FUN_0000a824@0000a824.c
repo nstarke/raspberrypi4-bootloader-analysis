@@ -104,7 +104,7 @@ FUN_0000a824(uint *param_1,undefined4 *param_2,byte *param_3,int *param_4,undefi
           }
         }
       }
-      _write_to_stderr((byte *)pcVar4,(uint)param_1,pbVar2,iVar5,pbVar9,iVar10);
+      FUN_0000a2ac((byte *)pcVar4,(uint)param_1,pbVar2,iVar5,pbVar9,iVar10);
     }
   }
   else {

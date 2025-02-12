@@ -39,12 +39,12 @@ uint FUN_0000d2f0(uint param_1,int param_2,int param_3,uint param_4,int *param_5
   } while (uVar3 < 0x989681);
   uVar2 = 0x92;
 LAB_0000d3d8:
-  _write_to_stderr((byte *)s_SPI_ERROR___d_CS__08_0000dcf0,uVar2,0x80,uVar3,0,param_6);
+  FUN_0000a2ac((byte *)s_SPI_ERROR___d_CS__08_0000dcf0,uVar2,0x80,uVar3,0,param_6);
   pcVar1 = (code *)swi(0xe);
   (*pcVar1)();
   _DAT_7d004000 = _DAT_7d004000 & 0xffffff7f;
-  _write_to_stderr((byte *)s_SPI_error___x__u__u__u__u__u_0000d49c,_DAT_7d004000,param_1,param_3,
-                   param_4,_DAT_7c003004 - *piVar4);
+  FUN_0000a2ac((byte *)s_SPI_error___x__u__u__u__u__u_0000d49c,_DAT_7d004000,param_1,param_3,param_4
+               ,_DAT_7c003004 - *piVar4);
   FUN_0000a332(0x31,1);
   return 0xffffffff;
 code_r0x0000d372:

@@ -91,14 +91,13 @@ undefined4 FUN_0000ac2c(int *param_1,int *param_2,int *param_3,uint *param_4)
      uVar6 = extraout_r2_00, uVar7 = extraout_r3_00, iVar8 = extraout_r4_00, iVar1 = extraout_r5_00,
      iVar2 != 0)) {
 LAB_0000ad58:
-    _write_to_stderr((byte *)s_Failed_to_parse_signature_file_0000ad8c,uVar5,uVar6,uVar7,iVar8,iVar1
-                    );
+    FUN_0000a2ac((byte *)s_Failed_to_parse_signature_file_0000ad8c,uVar5,uVar6,uVar7,iVar8,iVar1);
     return 0xffffffff;
   }
   uVar9 = param_2[1];
   pcVar3 = s_hash___32H_0000ad70;
 LAB_0000ad4c:
-  FUN_0000e198((byte *)pcVar3,uVar9,uVar6,uVar7,iVar8,iVar1);
+  _write_to_stdout((byte *)pcVar3,uVar9,uVar6,uVar7,iVar8,iVar1);
 LAB_0000acb6:
   do {
     uVar7 = param_1[2];

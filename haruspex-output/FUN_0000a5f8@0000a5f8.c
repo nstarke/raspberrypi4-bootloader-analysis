@@ -41,9 +41,9 @@ void FUN_0000a5f8(void)
         uVar3 = FUN_0000b2be(uStack_18,iStack_1c,iVar1,extraout_r3,extraout_r4,extraout_r5);
         *(uint *)(unaff_gp + 0x2e4) = uVar3;
         if (uVar2 != 0 && uVar2 != uVar3) {
-          _write_to_stderr((byte *)s_SDRAM_mismatch___boardrev__08x_s_0000a728,
-                           *(uint *)(unaff_gp + 0x94),*(undefined4 *)(unaff_gp + 0xa4),
-                           extraout_r3_00,extraout_r4_00,extraout_r5_00);
+          FUN_0000a2ac((byte *)s_SDRAM_mismatch___boardrev__08x_s_0000a728,
+                       *(uint *)(unaff_gp + 0x94),*(undefined4 *)(unaff_gp + 0xa4),extraout_r3_00,
+                       extraout_r4_00,extraout_r5_00);
           uVar4 = FUN_0000b310(uVar2);
           if ((uVar2 & 8) == 0) {
             iVar1 = unaff_gp + 0x18;
@@ -57,8 +57,8 @@ void FUN_0000a5f8(void)
           else {
             iVar5 = unaff_gp + 0x13b;
           }
-          _write_to_stderr((byte *)s_Expected_configuration__u_Gbit_s_0000a754,uVar4,iVar1,iVar5,
-                           uVar2,extraout_r5_01);
+          FUN_0000a2ac((byte *)s_Expected_configuration__u_Gbit_s_0000a754,uVar4,iVar1,iVar5,uVar2,
+                       extraout_r5_01);
           uVar2 = FUN_0000b310(uVar3);
           if ((uVar3 & 8) == 0) {
             iVar1 = unaff_gp + 0x1a;
@@ -72,8 +72,8 @@ void FUN_0000a5f8(void)
           else {
             iVar5 = unaff_gp + 0x151;
           }
-          _write_to_stderr((byte *)s_Actual_configuration__u_Gbit_s_s_0000a6fc,uVar2,iVar1,iVar5,
-                           uVar3,extraout_r5_02);
+          FUN_0000a2ac((byte *)s_Actual_configuration__u_Gbit_s_s_0000a6fc,uVar2,iVar1,iVar5,uVar3,
+                       extraout_r5_02);
           FUN_0000a3e8(9);
         }
         FUN_0000aa0c();

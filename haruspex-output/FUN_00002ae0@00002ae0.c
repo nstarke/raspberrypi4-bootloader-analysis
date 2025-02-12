@@ -35,7 +35,7 @@ bool FUN_00002ae0(char *param_1)
       uVar8 = extraout_r5_00;
     }
     bVar9 = iVar4 == iVar5;
-    FUN_0000e198((byte *)s_gpio_d__d__d_00002b54,uVar3,iVar4,iVar5,uVar7,uVar8);
+    _write_to_stdout((byte *)s_gpio_d__d__d_00002b54,uVar3,iVar4,iVar5,uVar7,uVar8);
   }
   return bVar9;
 }
