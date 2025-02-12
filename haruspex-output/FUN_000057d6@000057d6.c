@@ -6,6 +6,8 @@ undefined4 FUN_000057d6(void)
 {
   char *pcVar1;
   int iVar2;
+  undefined4 extraout_r0;
+  undefined4 extraout_r1;
   undefined4 extraout_r2;
   undefined4 extraout_r2_00;
   undefined4 extraout_r2_01;
@@ -44,9 +46,8 @@ undefined4 FUN_000057d6(void)
   }
   FUN_00000a82();
   FUN_0000afa0(*(int *)(unaff_gp + 0x38),*(int *)(unaff_gp + 0x3c));
-  uVar3 = FUN_00000a94();
-  uVar3 = FUN_0000b3a0((int)uVar3,(int)((ulonglong)uVar3 >> 0x20),extraout_r2,extraout_r3,
-                       extraout_r4,extraout_r5);
+  FUN_00000a94();
+  uVar3 = FUN_0000b3a0(extraout_r0,extraout_r1,extraout_r2,extraout_r3,extraout_r4,extraout_r5);
   uVar3 = FUN_00001bb8((int)uVar3,(uint)((ulonglong)uVar3 >> 0x20),extraout_r2_00);
   FUN_0000b3a0((int)uVar3,(int)((ulonglong)uVar3 >> 0x20),extraout_r2_01,extraout_r3_00,
                extraout_r4_00,extraout_r5_00);

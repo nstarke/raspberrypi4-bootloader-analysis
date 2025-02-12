@@ -24,8 +24,8 @@ void FUN_0000aa0c(void)
     do {
       currentValue = *(uint *)(&DAT_c1000000 + index * 4);
       if (index != currentValue) {
-        FUN_0000a2ac((byte *)s_Loop__d_address__p_expected__08x_0000aa58,1,&DAT_c1000000 + index * 4
-                     ,index,currentValue,counter);
+        _sprintf_to_stdout((byte *)s_Loop__d_address__p_expected__08x_0000aa58,1,
+                           &DAT_c1000000 + index * 4,index,currentValue,counter);
         FUN_0000a3e8(8);
         return;
       }

@@ -23,8 +23,8 @@ void FUN_0000a3e8(uint param_1)
     FUN_0000e460((int)uVar3,(uint)((ulonglong)uVar3 >> 0x20),extraout_r2,extraout_r3,extraout_r4,
                  extraout_r5);
     pcVar2 = FUN_00003d9c(param_1);
-    FUN_0000a2ac((byte *)s_BOOT_ERROR__code__x_____s__0000a44c,param_1,pcVar2,extraout_r3_00,
-                 extraout_r4_00,extraout_r5_00);
+    _sprintf_to_stdout((byte *)s_BOOT_ERROR__code__x_____s__0000a44c,param_1,pcVar2,extraout_r3_00,
+                       extraout_r4_00,extraout_r5_00);
     FUN_0000b2a4();
     iVar1 = _DAT_7c003004;
     do {

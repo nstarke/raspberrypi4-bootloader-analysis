@@ -60,7 +60,7 @@ int FUN_0000d86c(int *param_1,int *param_2,int param_3,byte *param_4,undefined4 
           uVar4 = extraout_r3_00;
           uVar7 = extraout_r5_01;
         }
-        FUN_0000a2ac((byte *)s__s_mismatch_0000d95c,(uint)(param_1 + 2),uVar3,uVar4,0,uVar7);
+        _sprintf_to_stdout((byte *)s__s_mismatch_0000d95c,(uint)(param_1 + 2),uVar3,uVar4,0,uVar7);
         iVar8 = 4;
       }
     }

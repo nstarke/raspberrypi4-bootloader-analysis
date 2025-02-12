@@ -83,7 +83,8 @@ LAB_0000a5ba:
     else {
 LAB_0000a5be:
       uVar11 = 0xfffffffe;
-      FUN_0000a2ac((byte *)s_Missing_or_corrupted_SDRAM_FW_0000a5d8,uVar6,iVar4,uVar7,uVar8,uVar9);
+      _sprintf_to_stdout((byte *)s_Missing_or_corrupted_SDRAM_FW_0000a5d8,uVar6,iVar4,uVar7,uVar8,
+                         uVar9);
       FUN_0000a3e8(0x31);
     }
   }

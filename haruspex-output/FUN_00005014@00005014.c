@@ -17,8 +17,8 @@ void FUN_00005014(void)
     puVar2 = &DAT_0001c200;
   }
   FUN_0000e09e(iVar1,puVar2);
-  FUN_0000a2ac((byte *)s_I2C_error____x_0000504c,unaff_lr,extraout_r2,extraout_r3,extraout_r4,
-               extraout_r5);
+  _sprintf_to_stdout((byte *)s_I2C_error____x_0000504c,unaff_lr,extraout_r2,extraout_r3,extraout_r4,
+                     extraout_r5);
   FUN_0000e072();
   do {
     FUN_0000a332(0x33,0);

@@ -58,8 +58,8 @@ int FUN_00007f14(undefined4 param_1,uint param_2,undefined4 param_3,undefined4 p
     local_7c = auStack_38;
     iVar3 = FUN_00008774(local_ac);
     if (iVar3 != 0) {
-      FUN_0000a2ac((byte *)s_SDRAM_init_failure_00007ffc,extraout_r1,extraout_r2,extraout_r3,
-                   extraout_r4,extraout_r5);
+      _sprintf_to_stdout((byte *)s_SDRAM_init_failure_00007ffc,extraout_r1,extraout_r2,extraout_r3,
+                         extraout_r4,extraout_r5);
     }
     *piVar2 = iVar3;
   }

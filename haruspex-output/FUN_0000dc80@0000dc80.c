@@ -31,8 +31,8 @@ undefined4 FUN_0000dc80(undefined *param_1,int *param_2,undefined4 param_3,uint 
       uVar4 = _DAT_7c003004 - *(int *)(unaff_gp + 0x110);
       param_4 = _DAT_7d004000;
     } while (uVar4 < 0x989681);
-    FUN_0000a2ac((byte *)s_SPI_ERROR___d_CS__08_0000dcf0,0x52,_DAT_7d004000,uVar3,_DAT_7c003004,
-                 uVar4);
+    _sprintf_to_stdout((byte *)s_SPI_ERROR___d_CS__08_0000dcf0,0x52,_DAT_7d004000,uVar3,
+                       _DAT_7c003004,uVar4);
     pcVar1 = (code *)swi(0xe);
     (*pcVar1)();
   }

@@ -70,8 +70,8 @@ int FUN_0000b18c(int *input_data_1,int *input_data_2,int *input_data_3,undefined
       if (key_length == 0) {
         global_counter = global_counter + 5;
       }
-      FUN_0000a2ac((byte *)s_rsa_verify__s__0x_x__0000b228,global_counter,-key_length,extraout_r3_04
-                   ,extraout_r4_04,extraout_r5_04);
+      _sprintf_to_stdout((byte *)s_rsa_verify__s__0x_x__0000b228,global_counter,-key_length,
+                         extraout_r3_04,extraout_r4_04,extraout_r5_04);
       return key_length;
     }
     error_message = s_RSA__Invalid_key_length__u_0000b240;
@@ -80,8 +80,8 @@ int FUN_0000b18c(int *input_data_1,int *input_data_2,int *input_data_3,undefined
     error_message = s_RSA__Invalid_signature_length__u_0000b25c;
     key_length = extraout_r4_02;
   }
-  FUN_0000a2ac((byte *)error_message,input_data_2[2],extraout_r2_02,extraout_r3_02,key_length,
-               extraout_r5_02);
+  _sprintf_to_stdout((byte *)error_message,input_data_2[2],extraout_r2_02,extraout_r3_02,key_length,
+                     extraout_r5_02);
   return -1;
 }
 

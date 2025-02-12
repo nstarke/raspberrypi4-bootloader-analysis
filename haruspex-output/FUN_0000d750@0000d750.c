@@ -60,8 +60,8 @@ LAB_0000d7e2:
     uVar4 = (uint)local_d;
   }
   pbVar3 = *(byte **)(param_1 + 4);
-  FUN_0000a2ac((byte *)s_EEPROM_error__program_page_0x_02_0000d804,(uint)*pbVar3,(uint)pbVar3[1],
-               (uint)pbVar3[2],uVar4,uVar1);
+  _sprintf_to_stdout((byte *)s_EEPROM_error__program_page_0x_02_0000d804,(uint)*pbVar3,
+                     (uint)pbVar3[1],(uint)pbVar3[2],uVar4,uVar1);
 LAB_0000d7fa:
   FUN_0000d298();
   return uVar5;

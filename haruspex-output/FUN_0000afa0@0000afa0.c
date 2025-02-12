@@ -44,8 +44,8 @@ void FUN_0000afa0(int param_1,int param_2)
     if ((iVar2 != 0) || (local_2c0 == 0)) {
       iVar2 = FUN_0000b8a2();
       FUN_0000e09e(iVar2,&DAT_0001c200);
-      FUN_0000a2ac((byte *)s_Failed_to_validate__s_0000b07c,*(uint *)(unaff_gp + 0x174),
-                   extraout_r2_00,extraout_r3_00,extraout_r4_01,extraout_r5_01);
+      _sprintf_to_stdout((byte *)s_Failed_to_validate__s_0000b07c,*(uint *)(unaff_gp + 0x174),
+                         extraout_r2_00,extraout_r3_00,extraout_r4_01,extraout_r5_01);
       FUN_0000a3e8(0x24);
       return;
     }

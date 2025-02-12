@@ -129,14 +129,15 @@ undefined4 FUN_0000b8b8(int *param_1,int param_2)
               }
             }
             else {
-              FUN_0000a2ac((byte *)s_Invalid_RSA_signature_size__u_by_0000ba50,in_stack_ffffff68,
-                           extraout_r2_00,context_param_4,context_param_5,context_param_6);
+              _sprintf_to_stdout((byte *)s_Invalid_RSA_signature_size__u_by_0000ba50,
+                                 in_stack_ffffff68,extraout_r2_00,context_param_4,context_param_5,
+                                 context_param_6);
             }
           }
         }
         else {
-          FUN_0000a2ac((byte *)s__s_hash_mismatch__32H_0000ba38,*(uint *)(unaff_gp + 0x174),
-                       pbVar2 + 0x20,extraout_r3_01,extraout_r4_01,extraout_r5_02);
+          _sprintf_to_stdout((byte *)s__s_hash_mismatch__32H_0000ba38,*(uint *)(unaff_gp + 0x174),
+                             pbVar2 + 0x20,extraout_r3_01,extraout_r4_01,extraout_r5_02);
         }
       }
     }

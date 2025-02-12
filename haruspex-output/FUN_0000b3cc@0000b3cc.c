@@ -117,8 +117,8 @@ void FUN_0000b3cc(void)
     *(uint *)(unaff_gp + 0x40c) = uVar6;
   }
   if ((*(uint *)(unaff_gp + 0x2d4) & 1) != 0) {
-    FUN_0000a2ac((byte *)s_TRYBOOT_0000b594,uVar6,extraout_r2_01,*(uint *)(unaff_gp + 0x2d4),
-                 extraout_r4_03,extraout_r5_04);
+    _sprintf_to_stdout((byte *)s_TRYBOOT_0000b594,uVar6,extraout_r2_01,*(uint *)(unaff_gp + 0x2d4),
+                       extraout_r4_03,extraout_r5_04);
   }
   iVar4 = FUN_0000a4d8();
   if (iVar4 != 0) {

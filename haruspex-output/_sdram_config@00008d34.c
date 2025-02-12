@@ -51,7 +51,7 @@ undefined4 _sdram_config(undefined4 param_1,undefined4 *param_2,int param_3)
                      *(uint *)(unaff_gp + 0x88),uVar2,uVar3,uVar8);
   }
   if (uVar10 == 0) {
-    uVar10 = FUN_0000c960(&uStack_2c,&local_24,&local_28,&iStack_30);
+    uVar10 = RetrieveMemoryInfo(&uStack_2c,&local_24,&local_28,&iStack_30);
   }
   *(uint *)(unaff_gp + 0x2cd0) = uVar10;
   uVar3 = FUN_00008120(param_1);
@@ -74,8 +74,8 @@ undefined4 _sdram_config(undefined4 param_1,undefined4 *param_2,int param_3)
       if ((int)uVar10 < 0x41) {
         if (uVar10 != 0x20) {
 LAB_00008e26:
-          FUN_0000a2ac((byte *)s_Unsupported_memory_size___d_00008f14,uVar10,iVar6,iVar7,local_24,
-                       extraout_r5_02);
+          _sprintf_to_stdout((byte *)s_Unsupported_memory_size___d_00008f14,uVar10,iVar6,iVar7,
+                             local_24,extraout_r5_02);
           FUN_0000a3e8(9);
           return 0xffffffff;
         }
@@ -105,8 +105,8 @@ LAB_00008e26:
       return 0;
     }
     uVar2 = FUN_00008120(param_1);
-    FUN_0000a2ac((byte *)s_MCB__d_size_gbit__d_dual_rank__d_00008f30,uVar2,extraout_r2_00,local_24,
-                 extraout_r4_02,extraout_r5_03);
+    _sprintf_to_stdout((byte *)s_MCB__d_size_gbit__d_dual_rank__d_00008f30,uVar2,extraout_r2_00,
+                       local_24,extraout_r4_02,extraout_r5_03);
   }
   return 0xffffffff;
 }

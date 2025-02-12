@@ -70,8 +70,8 @@ undefined4 * FUN_0000a1a4(int param_1)
       if (iVar6 == 0) {
         return puVar8;
       }
-      FUN_0000a2ac((byte *)s_EEPROM_RSA_key_mismatch__32H__32_0000a280,(uint)abStack_60,abStack_80,
-                   extraout_r3_01,extraout_r4_01,extraout_r5_01);
+      _sprintf_to_stdout((byte *)s_EEPROM_RSA_key_mismatch__32H__32_0000a280,(uint)abStack_60,
+                         abStack_80,extraout_r3_01,extraout_r4_01,extraout_r5_01);
       uVar3 = extraout_r1_00;
       uVar4 = extraout_r2_01;
       uVar5 = extraout_r3_02;

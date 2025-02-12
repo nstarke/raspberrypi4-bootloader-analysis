@@ -65,7 +65,8 @@ undefined4 FUN_0000da10(uint param_1)
 LAB_0000da8e:
     uVar2 = (uint)local_11;
   }
-  FUN_0000a2ac((byte *)s_EEPROM_ERROR_sector_erase___h__h_0000daa8,param_1,uVar2,uVar3,uVar4,uVar5);
+  _sprintf_to_stdout((byte *)s_EEPROM_ERROR_sector_erase___h__h_0000daa8,param_1,uVar2,uVar3,uVar4,
+                     uVar5);
 LAB_0000da9c:
   FUN_0000d298();
   return uVar6;

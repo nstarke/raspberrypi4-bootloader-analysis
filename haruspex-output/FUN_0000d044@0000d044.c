@@ -56,8 +56,8 @@ void FUN_0000d044(void)
       FUN_0000b63a(local_2c);
     }
     else {
-      FUN_0000a2ac((byte *)s_ELF_loader_error___d_0000d170,uVar4,extraout_r2_00,extraout_r3_00,
-                   extraout_r4_00,extraout_r5_01);
+      _sprintf_to_stdout((byte *)s_ELF_loader_error___d_0000d170,uVar4,extraout_r2_00,extraout_r3_00
+                         ,extraout_r4_00,extraout_r5_01);
     }
   }
   FUN_0000a3e8(0x31);
